@@ -1,11 +1,16 @@
 
 # PSG SR 1
 
+```sh
+composer require psg/sr1
+```
 
 ```php
 class Request implements Psg\Sr1\RequestInterface{}
 ```
 
+# Implementations
+-	[PHP-SG/sr-1-implementation](https://github.com/PHP-SG/sr-1-implementation)
 
 # Changes Compared to FIG PSR 7
 -	All classes now have factory methods and a "create" method:
