@@ -1,0 +1,21 @@
+{
+    "name": "psg/sr1",
+    "description": "PHP SG SR-1",
+    "license": "MIT",
+    "keywords": ["php-sg", "sr-1"],
+    "homepage": "https://php-sg.org",
+    "authors": [
+        {
+            "name": "PHP-SG",
+            "homepage": "http://php-sg.org/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Psg\\Sr1\\": "src/"
+        }
+    }
+}
