@@ -25,8 +25,8 @@ class Request implements Psg\Sr1\RequestInterface{}
 		-	create()
 	-	StreamInterface
 		-	createStream()
-		-	createFromFileStream()
-		-	createFromResourceStream()
+		-	createStreamFromFile()
+		-	createStreamFromResource()
 		-	create()
 		-	createFromFile()
 		-	createFromResource()
